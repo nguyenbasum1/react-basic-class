@@ -1,5 +1,5 @@
 import React from "react";
-import ChillComponent from ".ChillComponent";
+import ChillComponent from "./ChillComponent";
 class Mycomponent extends React.Component {
     state = {
         firstName: "",
@@ -8,12 +8,12 @@ class Mycomponent extends React.Component {
             {
                 id: "01",
                 title: "dev",   
-                salary: "5000$", 
+                salary: "5000", 
             },
             {
                 id: "02",
                 title: "tester",   
-                salary: "2500$", 
+                salary: "2500", 
             }
         ],
     }
